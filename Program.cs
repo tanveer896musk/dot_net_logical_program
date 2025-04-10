@@ -17,7 +17,8 @@ namespace logical_program
             //ReverseString.Stringreverse(args);
             //AbstractClass.AbstarctMain(args);
             //numberPrintingasperuser.factorialnum(args);
-            FactorialnumberPrinting.factorialnum(args);
+            //FactorialnumberPrinting.factorialnum(args);
+            Armstrong.armstrongnumber(args);
         }
     }
 }
