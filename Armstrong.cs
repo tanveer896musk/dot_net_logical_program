@@ -36,7 +36,7 @@ namespace logical_program
             }
 
         }
-       /* public int armstrongnumbers(int a)
+        public int armstrongnumbers(int a)
         {
             int result = 0;
             int count = 0;
@@ -54,7 +54,7 @@ namespace logical_program
             }
 
             return result;
-        }*/
+        }
         public static int power(int num, int poer)
         {
             int result = 1;

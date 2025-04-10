@@ -18,7 +18,8 @@ namespace logical_program
             //AbstractClass.AbstarctMain(args);
             //numberPrintingasperuser.factorialnum(args);
             //FactorialnumberPrinting.factorialnum(args);
-            Armstrong.armstrongnumber(args);
+            //Armstrong.armstrongnumber(args);
+            Arrays.arr(args);
         }
     }
 }
