@@ -57,6 +57,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Pyramid.cs" />
     <Compile Include="ReverseString.cs" />
+    <Compile Include="StrongNumber.cs" />
     <Compile Include="SwapNumber.cs" />
     <Compile Include="SwapWithTemp.cs" />
   </ItemGroup>
