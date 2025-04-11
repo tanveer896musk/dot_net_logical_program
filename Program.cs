@@ -12,14 +12,14 @@ namespace logical_program
         {
             //PalidroneNumber.palin(args);
             //EvenOdd.Evenodd(args);
-            //Overriding.Override(args);
+            Overriding.Override(args);
             // Pyramid.pramid(args);
             //ReverseString.Stringreverse(args);
             //AbstractClass.AbstarctMain(args);
             //numberPrintingasperuser.factorialnum(args);
             //FactorialnumberPrinting.factorialnum(args);
             //Armstrong.armstrongnumber(args);
-            Arrays.arr(args);
+           // Arrays.arr(args);
         }
     }
 }
