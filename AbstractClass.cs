@@ -10,9 +10,7 @@ namespace logical_program
     {
         int a;
         int b;
-
       public abstract void Dummyfunction();
-        
     }
     public class AbstractClass : AbstractClassexample
     {

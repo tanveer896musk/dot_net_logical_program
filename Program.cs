@@ -19,9 +19,11 @@ namespace logical_program
             //numberPrintingasperuser.factorialnum(args);
             //FactorialnumberPrinting.factorialnum(args);
             //Armstrong.armstrongnumber(args);
-            StringManipulation.Manipulation(args);
+            //StringManipulation.Manipulation(args);
             //Primenumber.primenum(args);
            // Arrays.arr(args);
+           DuplicateString.Duplicate(args);
+
         }
     }
 }

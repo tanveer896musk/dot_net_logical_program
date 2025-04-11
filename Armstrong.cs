@@ -10,7 +10,7 @@ namespace logical_program
     {
         public static void armstrongnumber(String[] args)
         {
-            int a = 370;
+            int a = 370;  
             int result = 0;
             int count = 0;
             int z = a;
@@ -52,7 +52,6 @@ namespace logical_program
                 result = result + power(d, count);
                 b = b / 10;
             }
-
             return result;
         }
         public static int power(int num, int poer)

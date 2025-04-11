@@ -11,21 +11,19 @@ namespace logical_program
         public static void Manipulation(String[] args)
         {
             String name = "Tanveer Sayyed ";
-            String crippleString = " kl";
-
-
+            String crippleString = " ";
 
 
             bool Comapring = name.StartsWith("Tanveer"); //return bool
 
             
             bool Comapring1 = name.EndsWith("Tanveer"); //return bool
-            Console.WriteLine($"!!!!!!!!!!!{Comapring1}111111111111111111{Comapring}");
+            Console.WriteLine($"!!!!!!!!!!!{Comapring1}!!!!!!!!!!!!{Comapring}");
 
             bool chmod = name.Contains("say");         //return bool
             Console.WriteLine(chmod);
 
-            int bd = name.IndexOf("Say");                   //return int and index of start string character
+            int bd = name.IndexOf("Say");           //return int and index of start string character
             Console.WriteLine(bd);
 
             int bd1 = name.LastIndexOf("y");
@@ -68,6 +66,8 @@ namespace logical_program
             
             int bol = String.Compare("Tanveer", "veer"); // this String.Compare return int.
             Console.WriteLine(bol);
+            bool cd = String.IsNullOrWhiteSpace(crippleString);
+            Console.WriteLine(cd);
         }
     }
 }

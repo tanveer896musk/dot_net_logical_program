@@ -11,7 +11,8 @@ namespace logical_program
         public static void Duplicate(String[] args)
         {
             DuplicateString duplicateString = new DuplicateString();
-            Console.WriteLine(duplicateString.removeduplicate("pooja"));
+            Console.WriteLine(duplicateString.dubString("tanveer"));
+            Console.ReadLine(); 
         }
         public String removeduplicate(String message)
         {
@@ -35,5 +36,20 @@ namespace logical_program
             }
             return result;
         }
+        public String dubString(String message)
+        {
+            String result = "";
+            foreach (char c in message)
+            {
+                if (!result.Contains(c))
+                {
+                    result = result + c;
+                }
+            }
+            return result;
+
+        }
+        
+        
     }
 }
