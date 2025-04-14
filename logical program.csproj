@@ -65,6 +65,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="SQl_1.bak" />
   </ItemGroup>
   <ItemGroup>
     <Content Include=".gitignore" />

@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace logical_program
 {
-    internal class StrongNumber
+    public class StrongNumber
     {
+        public static void prac(String[] args)
+        {
+
+        }
     }
 }
